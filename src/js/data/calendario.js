@@ -55,4 +55,4 @@ export default [
         ["Desarrollo WEB en entorno servidor", 19, 30, 20, 25],
         ["Inglés", 20, 25, 21, 20]
     ]
-];
+]

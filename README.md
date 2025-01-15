@@ -2,9 +2,9 @@
 
 Este es un proyecto que he realizado por diversión para tener una especie de calendario/mural o algún acceso rápido a la página de aules.
 
-Trata de una página web que te coloca el enlace a la asignatura que necesites en el momento que toca esa asignatura.
+Trata de una página web que te coloca el enlace a la asignatura que necesites en el momento que toca esa asignatura. Se actualiza automáticamente para ofrecer lo que toca en cada momento(un acceso directo).
 
-Se ha hecho simplemente por diversión, no tiene nada de especial y algunas practicas de las realizadas no están aconsejadas.
+Se ha hecho simplemente por diversión, no tiene nada de especial y algunas practicas de las realizadas no están aconsejadas, por ejemplo esta mezcla de **sass**, **php**, **js**, **html**, **Jquery** etc, no sería la más aconsejable, se podría haber abordado de otra manera.
 
 ## Desplegar el proyecto
 

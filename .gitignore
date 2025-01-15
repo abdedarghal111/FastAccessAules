@@ -1,3 +1,2 @@
 deploy/res
-server.crt
-server.key
+src/css

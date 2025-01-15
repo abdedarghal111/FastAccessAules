@@ -19,6 +19,12 @@ Si tu intención es probalo pues tenemos los siguientes 2 escenarios:
 
 ## Personalización
 
+### Asignaturas y horario
+
+El sistema se basa en recoger archivos **js** con tablas **json**, cada fichero se explica por si mismo, están hubicados en `./src/js/data` y puedes modificarlos siguiendo la estructura que se ofrece en los comentarios de los ficheros. **Importante**, los nombres de las asignaturas tienen que ser los mismos en todos los ficheros para así ser compatibles entre sí. Luego, coloca el enlace que necesites tener a la hora concreta.
+
+### Sonidos
+
 Finalmente si usas **arch linux** o el gestor de paquetes **pacman**, al hacer uso de los scripts tienes la opción de que suene un sonido cada vez que inicias o apagar el servidor mediante script.
 
 Para ello deberás colocar 2 archivos de sonido en las siguientes rutas:

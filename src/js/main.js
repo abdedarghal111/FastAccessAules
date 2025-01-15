@@ -5,7 +5,7 @@ import "jQuery";
 let createA = function(link,parent){
     let a = document.createElement("a");
     a.href = link;
-    //a.target = "_blank"
+    a.target = "_blank"
     parent.appendChild(a);
     return a;
 }

@@ -1,9 +1,12 @@
 # Sobre el proyecto
 
 Este es un proyecto que he realizado por diversión para tener una especie de calendario/mural o algún acceso rápido a la página de aules.
-Se ha hecho simplemente por diversión, no tiene nada de especial.
 
-## Aspectos relevantes
+Trata de una página web que te coloca el enlace a la asignatura que necesites en el momento que toca esa asignatura.
+
+Se ha hecho simplemente por diversión, no tiene nada de especial y algunas practicas de las realizadas no están aconsejadas.
+
+## Desplegar el proyecto
 
 Si tu intención es probalo pues tenemos los siguientes 2 escenarios:
 
@@ -21,7 +24,7 @@ Si tu intención es probalo pues tenemos los siguientes 2 escenarios:
 
 ### Asignaturas y horario
 
-El sistema se basa en recoger archivos **js** con tablas **json**, cada fichero se explica por si mismo, están hubicados en `./src/js/data` y puedes modificarlos siguiendo la estructura que se ofrece en los comentarios de los ficheros. **Importante**, los nombres de las asignaturas tienen que ser los mismos en todos los ficheros para así ser compatibles entre sí. Luego, coloca el enlace que necesites tener a la hora concreta.
+El sistema se basa en recoger datos de archivos **js** con tablas **json**, cada fichero se explica por si mismo, están hubicados en `./src/js/data` y puedes modificarlos siguiendo la estructura que se ofrece en los comentarios cada fichero. **Importante**, los nombres de las asignaturas tienen que ser los mismos en todos los ficheros.
 
 ### Sonidos
 

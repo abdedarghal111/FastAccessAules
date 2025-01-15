@@ -1,0 +1,17 @@
+@import 'config';
+
+header {
+    background-color: $darkerColor;
+    color: $lighterColor;
+    padding: $padding4;
+    box-shadow: $darkColor 0 0 20px;
+
+    h1 {
+        margin: 0;
+        font-size: $fontSize6;
+        font-weight: bold;
+        > span {
+            font-size: $fontSize7;
+        }
+    }
+}

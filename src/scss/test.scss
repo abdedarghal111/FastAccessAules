@@ -1,0 +1,38 @@
+@import "config";
+@import "general";
+
+#div0 {
+    padding: 0;
+}#div1 {
+    padding: $padding1;
+}#div2 {
+    padding: $padding2;
+}#div3 {
+    padding: $padding3;
+}#div4 {
+    padding: $padding4;
+}#div5 {
+    padding: $padding5;
+}#div6 {
+    padding: $padding6;
+}#div7 {
+    padding: $padding7;
+}
+
+#text1 {
+    font-size: $fontSize1;
+}#text2 {
+    font-size: $fontSize2;
+}#text3 {
+    font-size: $fontSize3;
+}#text4 {
+    font-size: $fontSize4;
+}#text5 {
+    font-size: $fontSize5;
+}#text6 {
+    font-size: $fontSize6;
+}#text7 {
+    font-size: $fontSize7;
+}#text8 {
+    font-size: $fontSize8;
+}

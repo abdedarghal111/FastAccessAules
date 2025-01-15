@@ -1,0 +1,13 @@
+{
+  "name": "fastaccessaules",
+  "version": "1.0.0",
+  "description": "Una página de acceso rápido a aules",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sassCompile": "sass scss:css --watch",
+    "prepareWeb": "sass scss:css"
+  },
+  "author": "Abderrahim Darghal Belkacemi",
+  "license": "ISC"
+}

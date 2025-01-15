@@ -1,0 +1,14 @@
+@import 'config';
+
+footer {
+    background-color: $darkColor;
+    color: $lighterColor;
+    padding: $padding2;
+    margin-top: $padding6;
+    
+    p {
+        text-align: center;
+    }
+
+    box-shadow: $darkColor 0 0 20px;
+}

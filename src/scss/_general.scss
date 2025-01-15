@@ -1,0 +1,46 @@
+@import 'config';
+@import 'fonts';
+@import 'header';
+@import 'footer';
+
+* {
+    //color: $darkerColor;
+    //background-color: $lighterColor;
+    font-family: $UbuntuFont, sans-serif;
+    box-sizing: content-box;
+}
+
+body {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+main {
+    color: $lighterColor;
+    min-height: 74vh;
+}
+
+.baseContainer {
+    background-color: $darkColor;
+    margin: $padding4;
+    padding: $padding4;
+    border-radius: $padding4;
+    box-shadow: $darkColor 0 0 20px;
+}
+
+.baseh2Style {
+    margin: $padding5;
+    font-size: $fontSize6;
+    background-color: $darkerColor;
+    color: $lightColor;
+    padding: $padding4;
+    border-radius: $padding4;
+    width: fit-content;
+    text-align: center;
+    margin-inline: auto;
+    box-shadow: $darkColor 0 0 5px;
+}
+
+body {
+    margin: 0px;
+}

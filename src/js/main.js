@@ -43,7 +43,12 @@ let refreshPage = function(){
     }else{
         let link = getSubjectLink(currentSubject)
         if(link){
-            rightNowTag.html("Ahora toca <a href='"+link+"' class='baseAStyle'>"+currentSubject+"</a>.")
+            let parent = rightNowTag.get(0)
+            Create.createText("Ahora toca ", parent)
+            let a = Create.createA(link, parent)
+            a.classList.add("baseAStyle")
+            a.innerText = currentSubject
+            Create.createText(".", parent)
         }else{
             rightNowTag.html("Ahora toca "+currentSubject+".")
         }

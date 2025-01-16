@@ -12,4 +12,9 @@ export default class Create {
         parent.append(li)
         return li
     }
+
+    static createText(text, parent){
+        let textNode = document.createTextNode(text)
+        parent.appendChild(textNode)
+    }
 }

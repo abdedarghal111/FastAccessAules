@@ -66,4 +66,4 @@ let refreshPage = function(){
 
 refreshPage()
 
-setTimeout(refreshPage, 60 * 1000) // 60 segundos
+setInterval(refreshPage, 60 * 1000) // 60 segundos
